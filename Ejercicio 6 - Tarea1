@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int a = 0;
+    int b = 0;
+    int resta= 0;
+    int multiplicacion= 0;
+    int division= 0;
+    int resultado= 0;
+
+    cout<<"ingrese el valor de a:";
+    cin >> a;
+    cout << endl;
+    
+    cout<<"ingrese el valor de b:";
+    cin>> b;
+	cout << endl;
+    
+    resta= a- b ;
+    multiplicacion= a* b ;
+    division= a/ b ;
+    resultado= a + b ;
+    cout <<endl;
+    
+    cout<< "la suma de a + b es:" << resultado << endl;
+    cout<< "la resta de a - b es:" << resta<< endl;
+    cout<< "la multiplicacion de a * b es:" << multiplicacion<< endl;
+    cout<< "la division  de a / b es:" << division << endl;
+
+
+    return 0;
+}
+
