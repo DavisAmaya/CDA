@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	
+	int pares = 0;
+	int impares = 0;
+	int sumatotal=0;
+	
+	cout<<endl;
+	
+	for(int i= 1; i<= 10; i++)
+	{ 
+	
+		if(i % 2 == 0)
+		{
+			pares = pares + i;
+
+		}
+		else {
+			impares+= i;		
+		}
+		
+		sumatotal = pares + impares;
+		
+		cout << i << " ";
+	}
+		
+	cout<< endl;
+	cout<< endl;
+	cout <<"El total pares: "<<pares<< endl;
+	cout <<"El total impares: "<<impares<< endl;
+	cout<< "La suma total de pares + impares:"<<sumatotal;
+			
+			
+	return 0;
+}
