@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	
+	int numeroentero;
+	numeroentero= 15;
+	
+	cout<<"entero:"<<numeroentero<<endl;
+	numeroentero= 18;
+	
+	cout<<"entero modificado:"<<numeroentero;
+	return 0;
+}
