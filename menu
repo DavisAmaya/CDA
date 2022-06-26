@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	
+	int opcion=0;
+	while (true){
+		system("cls");
+		cout<<"****"<<endl;
+		cout<<"menu"<<endl;
+		cout<<"****"<<endl;
+		
+		cout<<endl;
+		cout<<"1- cafe y granitas"<<endl;
+		cout<<"2- respoteria"<<endl;
+		cout<<"0- salir"<<endl;
+		cout<<"ingrese una opcion del menu:";
+		cin>>opcion;
+		
+
+		
+		if (opcion==1){
+			system("cls");
+			cout<<"estas en el menu cafe y granitas"<<endl;
+		}
+			
+		if (opcion==2){
+			system ("cls");
+			cout<<"estas en el menu de respoteria"<<endl;
+			system("pause");
+		}
+				
+		if (opcion==0){
+			break;
+		}
+		}			
+	cout<<endl;
+	cout<<"saliste del sistema";
+				
+	return 0;
+}
